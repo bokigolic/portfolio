@@ -9,7 +9,14 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+As a front-end developer, I am passionate about creating engaging user experiences through elegant and efficient design. I am seeking new opportunities to apply my skills and collaborate with a dynamic team.
+
+<br /><br />
+Developed responsive web applications using React.js, HTML, CSS, and JavaScript
+- Utilized media queries, flexbox, and grid to create responsive layouts
+- Integrated APIs using fetch and axios to make HTTP requests and retrieve data
+- Deployed applications using Heroku and managed version control using GIT
+- Worked with Node.js and databases to create back-end functionality
     </SectionText>
     <List>
       <ListItem>
