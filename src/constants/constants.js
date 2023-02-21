@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Facebook Clone',
-    description: "I created this project to challenge myself and learn advanced concepts in React development. I built a social media app using the latest ReactJS technology. The app mimics the core features of Facebook, allowing users to create and manage posts, upload images, write comments, and respond to posts with likes and other reactions. I also plan to expand the feature set to include unique functions that make the app stand out, such as chat features, video sharing, and integration with other social media platforms.",
+    description: "I created this project to challenge myself and learn advanced concepts in React development. I built a social media app using the latest ReactJS technology. The app mimics the core features of Facebook, allowing users to create and manage posts, upload images, write comments, and respond to posts with likes and other reactions. I also plan to expand the feature set to include unique functions that make the app stand out, such as chat features, video sharing.",
     image: '/images/1.png',
     tags: ['JavaScript', 'ReactJS', 'React Router', 'Node', 'API'],
     source: 'https://github.com/bokigolic/social-app',
@@ -40,11 +40,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey', },
+  { year: 2020, text: 'Worked as a freelance developer', },
+
 ];
 
 
