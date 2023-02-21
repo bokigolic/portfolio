@@ -1,7 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiResponsive, DiGithubFull, DiMsqlServer, DiHtml5Multimedia, DiCss3, DiJavascript1, DiHeroku, DiStackoverflow, DiNodejs, DiDatabase } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id='tech'>
@@ -9,31 +9,81 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Working with a range of technologies in web development can be very beneficial for your career, as it allows you to gain a broad understanding of the field and develop a diverse skill set. Having a strong understanding of both the front end and back end of web development can make you a more well-rounded developer. Understanding how the front end and back end work together can help you build more efficient, scalable applications.
+      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size='3rem' />
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
             Exporience with <br />
-            React.js
+            <DiReact size='2rem' /> React.js <br />
+            <DiHtml5Multimedia size='2rem' /> HTML <br />
+            <DiCss3 size='2rem' /> CSS <br />
+            <DiJavascript1 size='2rem' /> Javascript <br />
+
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <ListContainer>
+          <ListTitle>Responsive Design</ListTitle>
+          <ListParagraph>
+            Exporience with <br />
+            <DiResponsive size='2rem' /> Media queries<br />
+            <DiResponsive size='2rem' /> Flexbox/grid
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+
+        <ListContainer>
+          <ListTitle>API Integration</ListTitle>
+          <ListParagraph>
+            Exporience with <br />
+            <DiMsqlServer size='2rem' /> API
+            Use fetch or axios <br />
+            <DiMsqlServer size='2rem' /> to make HTTP request
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+
+        <ListContainer>
+          <ListTitle>Deployment</ListTitle>
+          <ListParagraph>
+            Exporience with <br />
+            <DiHeroku size='2rem' /> Heroku <br />
+            <DiGithubFull size='2rem' /> GIT <br />
+            <DiStackoverflow size='2rem' /> Hostgaror <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Exporience with <br />
-            Node and
-            Databases
+            <DiNodejs size='3rem' /> Node <br />
+            <DiDatabase size='3rem' />  Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      
+      <ListItem>
+    
+        <ListContainer>
+          <ListTitle>Personal Projects</ListTitle>
+          <ListParagraph>
+            Create personal projects <br />
+            that demonstrate <br />
+            creativity and <br />
+            problem-solving skills <br />
+
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+
     </List>
 
   </Section>
