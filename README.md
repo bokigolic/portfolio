@@ -53,7 +53,7 @@ and accessible to the world, thanks to the reliable hosting services of HostGato
 
 ### Screenshot: 
 
-
+<img width="931" alt="Screenshot" src="https://github.com/bokigolic/portfolio/blob/main/public/images/portfolio-scs.jpg">
 
 ### Conclusion
 
