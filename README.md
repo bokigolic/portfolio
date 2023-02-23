@@ -5,7 +5,7 @@ Personal portfolio is a responsive web application built using React and Next.js
 
 ### Deployment
 I am excited to share that my portfolio is now live 
--[LIVE](https://bojangolic.com/) 
+- [LIVE](https://bojangolic.com/) 
 and accessible to the world, thanks to the reliable hosting services of HostGator
 
 
