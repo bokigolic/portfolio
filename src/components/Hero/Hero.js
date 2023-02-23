@@ -12,7 +12,7 @@ const Hero = (props) => (
         My name is Bojan
       </SectionTitle>
       <SectionText>I'm a passionate web developer with a focus on front-end development and a keen eye for design</SectionText>
-      <Button onClick={() => window.location = 'https://bojangolic.com/'}>Learn More</Button>
+      <Button onClick={() => window.location = '/GW_Certificate.pdf'}>Certificate</Button>
 
     </LeftSection>
 
