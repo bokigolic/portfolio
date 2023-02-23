@@ -28,7 +28,7 @@ To start the application, run the command
 ```npm install```
 ```npm run dev```
 
-in terminal. This will launch the development server and allow you to view your portfolio in your web browser.
+in terminal. This will launch the development server and allow you to view portfolio in your web browser.
 
 ## Dependencies
 The project makes use of several dependencies, including:
