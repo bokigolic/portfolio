@@ -15,6 +15,7 @@ const Hero = (props) => (
       <Button onClick={() => window.location = '/GW_Certificate.pdf'}>Certificate</Button>
 
     </LeftSection>
+    
 
   </Section>
 );

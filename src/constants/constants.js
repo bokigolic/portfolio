@@ -1,23 +1,5 @@
 export const projects = [
 
-  {
-    title: 'Fashion website',
-    description: "I have created a static website using HTML, CSS, and Bootstrap, which showcases my imaginative fashion designs and demonstrates my front-end development skills. Using Bootstrap, I incorporated responsive design features, ensuring the site looks great on any device or screen size.",
-    image: '/images/3.jpg',
-    tags: ['HTML', 'Css', 'Bootstrap'],
-    visit: 'https://github.com/bokigolic/Fashion-website',
-    source: 'https://majestic-rolypoly-6ce977.netlify.app/#a',
-    id: 2,
-  },
-  {
-    title: 'Gym Exercises App',
-    description: "In this project, I developed a modern fitness and gym application React. The app provides users with extensive exercises classified by specific muscle groups, allowing them to select workouts that fit their fitness goals. The integration with RapidAPI enables data retrieval from unlimited sources, making it easy for users to research and explore new activities. ",
-    image: '/images/4.jpg',
-    tags: ['JS', 'React', 'Node', 'API', 'Material UI '],
-    source: 'https://gym.bojangolic.com/',
-    visit: 'https://github.com/bokigolic/gym-exercises-app',
-    id: 3,
-  },
 
   {
     title: 'Facebook Clone',
@@ -27,6 +9,45 @@ export const projects = [
     visit: 'https://github.com/bokigolic/social-app',
     source: 'http://socialapp.bojangolic.com/',
     id: 0,
+  },
+  
+  {
+    title: 'Gym Exercises App',
+    description: "In this project, I developed a modern fitness and gym application React. The app provides users with extensive exercises classified by specific muscle groups, allowing them to select workouts that fit their fitness goals. The integration with RapidAPI enables data retrieval from unlimited sources, making it easy for users to research and explore new activities. ",
+    image: '/images/4.jpg',
+    tags: ['JS', 'React', 'Node', 'API', 'Material UI '],
+    source: 'https://gym.bojangolic.com/',
+    visit: 'https://github.com/bokigolic/gym-exercises-app',
+    id: 3,
+  },
+  {
+    title: 'Portfolio',
+    description: "A portfolio built using React to showcase a developer's skills and achievements. The application is fully responsive. The hamburger menu is a typical design pattern used for mobile navigation, where the menu is hidden behind a small icon (X) that expands when clicked. React Router lets you navigate between pages like About Us, Resume, Projects, Skills, and Contact.",
+    image: '/images/6.png',
+    tags: ['HTML', 'React', 'JS', 'Css', 'Bootstrap'],
+    source: 'https://bojangolic.com/',
+    visit: 'https://github.com/bokigolic/boki-portfolio',
+    id: 6,
+  },
+  {
+    title: 'Memory Game',
+    description: "This is a simple game where player can test your memory skills by finding pairs of matching cards on a 4x4 board. You can also measure your time, score, and player name.",
+    image: '/images/5.png',
+    tags: ['HTML', 'React', 'JS', 'Css'],
+    visit: 'https://github.com/bokigolic/memory-game',
+    source: 'http://www.memory-game.bojangolic.com/',
+    id: 2,
+  },
+
+
+  {
+    title: 'Fashion website',
+    description: "I have created a static website using HTML, CSS, and Bootstrap, which showcases my imaginative fashion designs and demonstrates my front-end development skills. Using Bootstrap, I incorporated responsive design features, ensuring the site looks great on any device or screen size.",
+    image: '/images/3.jpg',
+    tags: ['HTML', 'Css', 'Bootstrap'],
+    visit: 'https://github.com/bokigolic/Fashion-website',
+    source: 'https://majestic-rolypoly-6ce977.netlify.app/#a',
+    id: 2,
   },
 
   {
