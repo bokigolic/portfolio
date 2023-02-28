@@ -10,7 +10,7 @@ export const projects = [
     source: 'http://socialapp.bojangolic.com/',
     id: 0,
   },
-  
+
   {
     title: 'Gym Exercises App',
     description: "In this project, I developed a modern fitness and gym application React. The app provides users with extensive exercises classified by specific muscle groups, allowing them to select workouts that fit their fitness goals. The integration with RapidAPI enables data retrieval from unlimited sources, making it easy for users to research and explore new activities. ",
@@ -19,6 +19,15 @@ export const projects = [
     source: 'https://gym.bojangolic.com/',
     visit: 'https://github.com/bokigolic/gym-exercises-app',
     id: 3,
+  },
+  {
+    title: 'Open AI',
+    description: "I used React.js, then HTML, CSS, and JavaScript to develop this application. Apart from these core technologies, I used Next.js, a popular server- side framework rendered by React applications. The user can ask questions and get answers; the application is fully responsive and does not require registration.",
+    image: '/images/7.png',
+    tags: ['HTML', 'Css', 'Node.js', 'Next.js', 'JavaScript'],
+    source: 'https://open-ai-bokigolic.vercel.app/',
+    visit: 'https://github.com/bokigolic/Open_AI',
+    id: 6,
   },
   {
     title: 'Portfolio',
