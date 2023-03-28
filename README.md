@@ -16,7 +16,6 @@ and accessible to the world, thanks to the reliable hosting services of HostGato
 - HTML, 
 - Javascript
 
-
 ## Features
 
 - About me: A section that provides more in-depth information about me, including background, education, and professional experience.
@@ -49,7 +48,6 @@ The project makes use of several dependencies, including:
 ### Customize
 
 To customize the project, you can modify the content of the components in the /components directory. You can also modify the styles in the /styles directory.
-
 
 
 ### Screenshot: 
