@@ -3,6 +3,10 @@
 ### Overview
 Personal portfolio is a responsive web application built using React and Next.js. With media queries and responsive design techniques, this project looks perfect on any device size.
 
+### Screenshot: 
+
+<img width="931" alt="Screenshot" src="https://github.com/bokigolic/portfolio/blob/main/public/images/portfolio-scs.jpg">
+
 ### Deployment
 I am excited to share that my portfolio is now live 
 - [LIVE](https://bojangolic.com/) 
@@ -48,11 +52,6 @@ The project makes use of several dependencies, including:
 ### Customize
 
 To customize the project, you can modify the content of the components in the /components directory. You can also modify the styles in the /styles directory.
-
-
-### Screenshot: 
-
-<img width="931" alt="Screenshot" src="https://github.com/bokigolic/portfolio/blob/main/public/images/portfolio-scs.jpg">
 
 ### Conclusion
 
