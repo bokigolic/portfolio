@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -46,7 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I'm a full-stack web developer with a marketing background and a bachelor's degree in economics. My passion for programming began while designing and launching a website for my own business, which led me to pivot my career in early 2019 and complete both the IT Academy and the George Washington University Boot Camp.
+        I'm a full-stack web developer with a marketing background and a bachelor's degree in economics. My passion for programming began while designing and launching a website for my own business, which inspired me to pivot my career in early 2019. Since then, I've completed both the IT Academy and the George Washington University Boot Camp, solidifying my skills in web development.
+
+        In my role as a Web Producer at NACD, I've managed comprehensive content migrations, overseen web architecture on Optimizely CMS, and collaborated closely with cross-functional teams to ensure high-quality, scalable, and visually appealing websites. My focus on A/B testing, image optimization, and CMS best practices has allowed me to contribute to seamless user experiences and impactful web projects.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

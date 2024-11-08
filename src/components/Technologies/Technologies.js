@@ -1,7 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiResponsive, DiGithubFull, DiMsqlServer, DiHtml5Multimedia, DiCss3, DiJavascript1, DiHeroku, DiStackoverflow, DiNodejs, DiDatabase } from 'react-icons/di';
+import { DiFirebase, DiReact, DiResponsive, DiGithubFull, DiMsqlServer, DiHtml5Multimedia, DiCss3, DiJavascript1, DiHeroku, DiNodejs, DiDatabase, DiWordpress } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id='tech'>
@@ -9,90 +9,90 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-As a front-end developer, I am passionate about creating engaging user experiences through elegant and efficient design. I am seeking new opportunities to apply my skills and collaborate with a dynamic team.
-
-<br /><br />
-Developed responsive web applications using React.js, HTML, CSS, and JavaScript
-- Utilized media queries, flexbox, and grid to create responsive layouts
-- Integrated APIs using fetch and axios to make HTTP requests and retrieve data
-- Deployed applications using Heroku and managed version control using GIT
-- Worked with Node.js and databases to create back-end functionality
+      As a full-stack developer with a marketing and web production background, I am dedicated to crafting engaging, responsive web applications. I’m currently seeking opportunities to further apply my expertise, particularly in front-end technologies and CMS platforms like Optimizely and WordPress.
+      <br /><br />
+      At NACD, I managed content migrations, optimized images for performance, and conducted A/B testing on the Optimizely CMS to ensure a seamless user experience across platforms.
     </SectionText>
     <List>
       <ListItem>
+        <DiReact size='3rem' />
         <ListContainer>
-          <ListTitle>Front-end</ListTitle>
+          <ListTitle>Front-End Development</ListTitle>
           <ListParagraph>
-            Exporience with <br />
-            <DiReact size='2rem' /> React.js <br />
-            <DiHtml5Multimedia size='2rem' /> HTML <br />
-            <DiCss3 size='2rem' /> CSS <br />
-            <DiJavascript1 size='2rem' /> Javascript <br />
-
+            Experience with: <br />
+            React.js, HTML, CSS, JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
+        <DiResponsive size='3rem' />
         <ListContainer>
           <ListTitle>Responsive Design</ListTitle>
           <ListParagraph>
-            Exporience with <br />
-            <DiResponsive size='2rem' /> Media queries<br />
-            <DiResponsive size='2rem' /> Flexbox/grid
+            Built responsive layouts using <br />
+            Media Queries, Flexbox, Grid
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
 
+      <ListItem>
+        <DiMsqlServer size='3rem' />
         <ListContainer>
           <ListTitle>API Integration</ListTitle>
           <ListParagraph>
-            Exporience with <br />
-            <DiMsqlServer size='2rem' /> API
-            Use fetch or axios <br />
-            <DiMsqlServer size='2rem' /> to make HTTP request
+            Integrated APIs with <br />
+            Fetch & Axios
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
 
+      <ListItem>
+        <DiHeroku size='3rem' />
         <ListContainer>
-          <ListTitle>Deployment</ListTitle>
+          <ListTitle>Deployment & Version Control</ListTitle>
           <ListParagraph>
-            Exporience with <br />
-            <DiHeroku size='2rem' /> Heroku <br />
-            <DiGithubFull size='2rem' /> GIT <br />
-            <DiStackoverflow size='2rem' /> Hostgaror <br />
+            Experience with: <br />
+            Heroku, Git, HostGator
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
+        <DiNodejs size='3rem' />
         <ListContainer>
-          <ListTitle>Back-end</ListTitle>
+          <ListTitle>Back-End Development</ListTitle>
           <ListParagraph>
-            Exporience with <br />
-            <DiNodejs size='3rem' /> Node <br />
-            <DiDatabase size='3rem' />  Databases
+            Worked with Node.js and <br />
+            various databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
+
       <ListItem>
-    
+        <DiWordpress size='3rem' />
+        <ListContainer>
+          <ListTitle>CMS & Content Management</ListTitle>
+          <ListParagraph>
+            Proficient in Optimizely & WordPress <br />
+            Managed NACD’s website and <br />
+            executed content migration
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiGithubFull size='3rem' />
         <ListContainer>
           <ListTitle>Personal Projects</ListTitle>
           <ListParagraph>
-            Create personal projects <br />
-            that demonstrate <br />
-            creativity and <br />
-            problem-solving skills <br />
-
+            Developed projects to <br />
+            showcase creativity and <br />
+            problem-solving skills
           </ListParagraph>
         </ListContainer>
       </ListItem>
-
-
     </List>
-
   </Section>
 );
 
